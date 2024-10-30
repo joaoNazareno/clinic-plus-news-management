@@ -1,0 +1,69 @@
+@media (min-width: 0px) {
+
+	/* Animations */
+	.anime-scroll [data-animate] {
+	  opacity: 0;
+	  transition: .5s;
+	}
+
+	.anime-scroll [data-animate="left"] {
+	  transform: translate3d(-50px, 0, 0);
+	}
+
+	.anime-scroll [data-animate="right"] {
+	  transform: translate3d(50px, 0, 0);
+	}
+
+	.anime-scroll [data-animate="top"] {
+	  transform: translate3d(0, -50px, 0);
+	}
+
+	.anime-scroll [data-animate="bottom"] {
+	  transform: translate3d(0, 50px, 0);
+	}
+
+	.anime-scroll [data-animate="fade"] {
+	  opacity: 0;
+	}
+
+	.anime-scroll [data-animate="zoom"] {
+	  transform: scale(.6);
+	}
+
+	.anime-scroll [data-animate="zoomIn"] {
+		transform: scale(1.3);
+		opacity: 0;
+		transform-origin: top;
+		transition: .7s;
+	}
+
+	.anime-scroll [data-animate].animate {
+	  opacity: 1;
+	  transform: translate3d(0px, 0px, 0px) scale(1);
+	}
+
+	.anime-scroll [data-delay="1"] {
+		transition-delay: .1s;
+	}
+
+	.anime-scroll [data-delay="2"] {
+		transition-delay: .2s;
+	}
+
+	.anime-scroll [data-delay="3"] {
+		transition-delay: .3s;
+	}
+
+	.anime-scroll [data-delay="4"] {
+		transition-delay: .4s;
+	}
+
+	.anime-scroll [data-delay="5"] {
+		transition-delay: .5s;
+	}
+
+	.anime-scroll [data-delay="6"] {
+		transition-delay: .6s;
+	}
+
+}

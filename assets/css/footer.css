@@ -1,0 +1,29 @@
+.footer {
+    position: relative;
+    background: var(--cor-complementar2);
+    color: #fff;
+}
+.rodape{
+    background: var(--cor-complementar5);
+}
+
+.tt-footer{
+    color: var(--cor-complementar6);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer p,
+.footer address{
+    font-size: 14px;
+}
+
+.btn_s{
+    width: 35px;
+    height: 35px;
+    background: var(--cor-complementar5);
+    border-radius: 50%;
+    padding: 9px 0 0 0 !important;
+}

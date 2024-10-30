@@ -1,0 +1,45 @@
+.zoom {
+	transform: scale(1);
+	transition: all .5s;
+}
+
+.zoom:hover {
+	transform: scale(1.1);
+}
+
+.zoomShadow {
+	box-shadow: none;
+	transform: scale(1);
+	transition: all .5s;
+}
+
+.zoomShadow:hover {
+	box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+	transform: scale(1.1);
+}
+
+.moveUp {
+	transform: translateY(0);
+	transition: all .5s;
+}
+
+.moveUp:hover {
+	transform: translateY(-20px);
+}
+
+.rotate img {
+	transform: rotateY(0deg);
+	transition: all .5s;
+}
+
+.rotate:hover img {
+	transform: rotateY(180deg);
+}
+
+.opacity {
+	opacity: 1;
+}
+
+.opacity:hover {
+	opacity: .9;
+}

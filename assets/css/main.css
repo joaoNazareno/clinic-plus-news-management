@@ -1,0 +1,20 @@
+@import "../vendor/bootstrap/bootstrap.min.css";
+@import "../vendor/animacoes/animacoes.css";
+@import "variables.css";
+@import "base.css";
+@import "theme.css?v=5";
+@import "animacoes.css";
+
+@import "header.css";
+@import "navegation.css";
+@import "titulos.css";
+@import "footer.css";
+
+@import "pages.css";
+
+@import "banner-topo.css";
+
+
+@import "../vendor/swiper/swiper-bundle.min.css";
+@import "../vendor/glightbox/css/glightbox.min.css";
+

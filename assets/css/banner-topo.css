@@ -1,0 +1,56 @@
+.bnr {
+ 	height: 338px;
+ 	background-size: cover;
+ 	background-position: center;
+}
+
+@media (max-width: 998px) {
+	.bnr {
+		height:250px;
+	}
+}
+@media (max-width: 998px) {
+	.bnr {
+		height: 150px;
+	}
+}
+
+.bnr-quemsomos {
+	background-image: url(../img/topo/quemsomos.jpg);
+}
+
+.bnr-fernando {
+	background-image: url(../img/topo/fernando.jpg);
+}
+
+.bnr-cursos {
+	background-image: url(../img/topo/cursos.jpg);
+}
+
+.bnr-professores {
+	background-image: url(../img/topo/professores.jpg);
+}
+
+.bnr-contato {
+	background-image: url(../img/topo/contato.jpg);
+}
+
+.bnr-noticias {
+	background-image: url(../img/topo/noticias.jpg);
+}
+
+.bnr-galerias {
+	background-image: url(../img/topo/galerias.jpg);
+}
+
+.bnr-videos {
+	background-image: url(../img/topo/videos.jpg);
+}
+
+
+
+@media (min-width: 998px) {
+	.banner-topo {
+		height:250px;
+	}
+}
