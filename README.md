@@ -2,7 +2,7 @@
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=DC143C&size=35&center=true&vCenter=true&width=1000&lines=CLINIC+%2B;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=0000ff&size=35&center=true&vCenter=true&width=1000&lines=CLINIC+%2B;)](https://git.io/typing-svg)
 
 ## Tecnologias Utilizadas
 
